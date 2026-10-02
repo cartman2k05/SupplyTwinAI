@@ -1,0 +1,57 @@
+SupplyTwinAI/
+├── AGENTS.md
+├── MASTER_PROMPT.md
+├── README.md
+├── .env.example
+├── docker/
+│   └── docker-compose.yml
+├── backend/
+│   ├── app/
+│   │   ├── __init__.py
+│   │   ├── config.py
+│   │   └── main.py
+│   ├── tests/
+│   │   └── test_health.py
+│   ├── __init__.py
+│   └── requirements.txt
+├── frontend/
+│   ├── src/
+│   │   ├── App.jsx
+│   │   ├── index.css
+│   │   └── main.jsx
+│   ├── index.html
+│   ├── package.json
+│   └── vite.config.js
+├── database/
+│   ├── etl/
+│   ├── migrations/
+│   └── seeds/
+├── knowledge_graph/
+├── agents/
+├── graph_rag/
+├── simulation/
+├── evaluation/
+│   └── analysis/
+│       ├── claim_verification_results.json
+│       └── verify_claims.py
+├── datasets/
+│   ├── raw/
+│   │   └── DataCoSupplyChainDataset_archive/
+│   │       └── DataCoSupplyChainDataset.csv
+│   ├── cleaned_v2/
+│   └── v3_etl/
+├── docs/
+│   ├── SupplyTwinAI_SRS.docx
+│   ├── DECISIONS.md
+│   ├── ROADMAP_v2.md
+│   ├── decision_log.md
+│   ├── data_dictionary/
+│   │   └── SupplyTwinAI_Master_Data_Dictionary.xlsx
+│   ├── references/
+│   ├── superseded/
+│   └── plans/
+│       └── phase-0-and-1-plan.md
+└── paper/
+    ├── draft/
+    └── artifacts/
+        └── phase0/

@@ -1,0 +1,231 @@
+# ETL v3 Configuration File for SupplyTwinAI
+
+# Raw Dataset Source
+raw_dataset_path: "datasets/raw/DataCoSupplyChainDataset_archive/DataCoSupplyChainDataset.csv"
+output_directory: "datasets/v3_etl"
+
+# Data Quality Validation Thresholds (§4.1 REQ-2)
+validation:
+  min_order_year: 2015
+  max_order_year: 2018
+  min_item_quantity: 1
+  min_item_price: 0.0
+
+# Geographic Country Normalization (Spanish -> English ISO Mapping)
+country_translation:
+  "Alemania": "Germany"
+  "Arabia Saudí": "Saudi Arabia"
+  "Arabia Saud": "Saudi Arabia"
+  "Argelia": "Algeria"
+  "Afganistán": "Afghanistan"
+  "Afganistn": "Afghanistan"
+  "Azerbaiyán": "Azerbaijan"
+  "Azerbaiyn": "Azerbaijan"
+  "Bangladés": "Bangladesh"
+  "Banglads": "Bangladesh"
+  "Baréin": "Bahrain"
+  "Barin": "Bahrain"
+  "Belice": "Belize"
+  "Benín": "Benin"
+  "Benn": "Benin"
+  "Bielorrusia": "Belarus"
+  "Botsuana": "Botswana"
+  "Brasil": "Brazil"
+  "Bélgica": "Belgium"
+  "Blgica": "Belgium"
+  "Camboya": "Cambodia"
+  "Camerún": "Cameroon"
+  "Camern": "Cameroon"
+  "Canadá": "Canada"
+  "Canada": "Canada"
+  "Corea del Sur": "South Korea"
+  "Costa de Marfil": "Ivory Coast"
+  "Croacia": "Croatia"
+  "Dinamarca": "Denmark"
+  "Egipto": "Egypt"
+  "Emiratos Árabes Unidos": "United Arab Emirates"
+  "Emiratos rabes Unidos": "United Arab Emirates"
+  "España": "Spain"
+  "Espaa": "Spain"
+  "Estados Unidos": "United States"
+  "EE. UU.": "United States"
+  "Etiopía": "Ethiopia"
+  "Etiopa": "Ethiopia"
+  "Filipinas": "Philippines"
+  "Finlandia": "Finland"
+  "Francia": "France"
+  "Gabón": "Gabon"
+  "Gabn": "Gabon"
+  "Guadalupe": "Guadeloupe"
+  "Guayana Francesa": "French Guiana"
+  "Haití": "Haiti"
+  "Hait": "Haiti"
+  "Hong Kong": "Hong Kong"
+  "Hungría": "Hungary"
+  "Hungra": "Hungary"
+  "Irlanda": "Ireland"
+  "Irán": "Iran"
+  "Irn": "Iran"
+  "Japón": "Japan"
+  "Japn": "Japan"
+  "Jordania": "Jordan"
+  "Kazajistán": "Kazakhstan"
+  "Kazajistn": "Kazakhstan"
+  "Kenia": "Kenya"
+  "Kirguistán": "Kyrgyzstan"
+  "Kirguistn": "Kyrgyzstan"
+  "Líbano": "Lebanon"
+  "Lbano": "Lebanon"
+  "Luxemburgo": "Luxembourg"
+  "Malasia": "Malaysia"
+  "Marruecos": "Morocco"
+  "Martinica": "Martinique"
+  "Moldavia": "Moldova"
+  "México": "Mexico"
+  "Mxico": "Mexico"
+  "Nicaragua": "Nicaragua"
+  "Noruega": "Norway"
+  "Nueva Zelanda": "New Zealand"
+  "Níger": "Niger"
+  "Nger": "Niger"
+  "Omán": "Oman"
+  "Omn": "Oman"
+  "Pakistán": "Pakistan"
+  "Pakistn": "Pakistan"
+  "Panamá": "Panama"
+  "Panam": "Panama"
+  "Papúa Nueva Guinea": "Papua New Guinea"
+  "Papa Nueva Guinea": "Papua New Guinea"
+  "Países Bajos": "Netherlands"
+  "Pases Bajos": "Netherlands"
+  "Perú": "Peru"
+  "Per": "Peru"
+  "Polonia": "Poland"
+  "Reino Unido": "United Kingdom"
+  "República Centroafricana": "Central African Republic"
+  "Repblica Centroafricana": "Central African Republic"
+  "República Checa": "Czech Republic"
+  "Repblica Checa": "Czech Republic"
+  "República Democrática del Congo": "Democratic Republic of the Congo"
+  "Repblica Democrtica del Congo": "Democratic Republic of the Congo"
+  "República Dominicana": "Dominican Republic"
+  "Repblica Dominicana": "Dominican Republic"
+  "República del Congo": "Republic of the Congo"
+  "Repblica del Congo": "Republic of the Congo"
+  "Rumania": "Romania"
+  "Rusia": "Russia"
+  "Singapur": "Singapore"
+  "Siria": "Syria"
+  "SudAfrik": "South Africa"
+  "SudAfrica": "South Africa"
+  "Sudán": "Sudan"
+  "Sudn": "Sudan"
+  "Sudán del Sur": "South Sudan"
+  "Sudn del Sur": "South Sudan"
+  "Suecia": "Sweden"
+  "Suiza": "Switzerland"
+  "Surinam": "Suriname"
+  "Tailandia": "Thailand"
+  "Taiwán": "Taiwan"
+  "Taiwn": "Taiwan"
+  "Tanzania": "Tanzania"
+  "Tayikistán": "Tajikistan"
+  "Tayikistn": "Tajikistan"
+  "Trinidad y Tobago": "Trinidad and Tobago"
+  "Turkmenistán": "Turkmenistan"
+  "Turkmenistn": "Turkmenistan"
+  "Turquía": "Turkey"
+  "Turqua": "Turkey"
+  "Túnez": "Tunisia"
+  "Tnez": "Tunisia"
+  "Ucrania": "Ukraine"
+  "Uzbekistán": "Uzbekistan"
+  "Uzbekistn": "Uzbekistan"
+
+# Regional Fallback Centroids for Global Geocoding Coverage (§4.4 REQ-5)
+region_fallback_centroids:
+  "Central America": [12.7690, -85.6024]
+  "South America": [-8.7832, -55.4915]
+  "Illinois": [40.6331, -89.3985]
+  "West of USA": [37.7749, -122.4194]
+  "US Center": [39.8283, -98.5795]
+  "East of USA": [40.7128, -74.0060]
+  "South of USA": [29.7604, -95.3698]
+  "Oceania": [-25.2744, 133.7751]
+  "Southern Europe": [40.4637, -3.7492]
+  "Eastern Asia": [35.8617, 104.1954]
+  "West Africa": [9.0820, 8.6753]
+  "Caribbean": [18.2208, -66.5901]
+  "East Africa": [-1.2921, 36.8219]
+  "South Asia": [20.5937, 78.9629]
+  "Eastern Europe": [50.4501, 30.5234]
+  "Northern Europe": [59.3293, 18.0686]
+  "Western Europe": [48.8566, 2.3522]
+  "Central Africa": [4.0383, 21.7587]
+  "Southern Africa": [-30.5595, 22.9375]
+  "Central Asia": [41.2044, 74.7661]
+  "Southeast Asia": [13.7563, 100.5018]
+  "Western Asia": [23.8859, 45.0792]
+  "North Africa": [26.8206, 30.8025]
+
+# Country Centroids (Latitude, Longitude) for Geography Lookup (§4.4 REQ-5)
+default_country_centroids:
+  "United States": [37.0902, -95.7129]
+  "Puerto Rico": [18.2208, -66.5901]
+  "Germany": [51.1657, 10.4515]
+  "France": [46.2276, 2.2137]
+  "United Kingdom": [55.3781, -3.4360]
+  "China": [35.8617, 104.1954]
+  "India": [20.5937, 78.9629]
+  "Brazil": [-14.2350, -51.9253]
+  "Australia": [-25.2744, 133.7751]
+  "Mexico": [23.6345, -102.5528]
+  "Japan": [36.2048, 138.2529]
+  "Italy": [41.8719, 12.5674]
+  "Spain": [40.4637, -3.7492]
+  "Canada": [56.1304, -106.3468]
+  "Saudi Arabia": [23.8859, 45.0792]
+  "South Korea": [35.9078, 127.7669]
+  "Netherlands": [52.1326, 5.2913]
+  "Belgium": [50.5039, 4.4699]
+  "Sweden": [60.1282, 18.6435]
+  "Switzerland": [46.8182, 8.2275]
+  "Turkey": [38.9637, 35.2433]
+  "Egypt": [26.8206, 30.8025]
+  "South Africa": [-30.5595, 22.9375]
+  "Colombia": [4.5709, -74.2973]
+  "Guatemala": [15.7835, -90.2308]
+  "Algeria": [28.0339, 1.6596]
+  "Morocco": [31.7917, -7.0926]
+  "Indonesia": [-0.7893, 113.9213]
+  "Russia": [61.5240, 105.3188]
+  "Afghanistan": [33.9391, 67.7100]
+  "Singapore": [1.3521, 103.8198]
+  "Vietnam": [14.0583, 108.2772]
+  "Poland": [51.9194, 19.1451]
+  "Argentina": [-38.4161, -63.6167]
+  "Chile": [-35.6751, -71.5430]
+  "Peru": [-9.1900, -75.0152]
+  "New Zealand": [-40.9006, 174.8860]
+  "Denmark": [56.2639, 9.5018]
+  "Norway": [60.4720, 8.4689]
+  "Finland": [64.9631, 25.7482]
+  "Austria": [47.5162, 14.5501]
+  "Greece": [39.0742, 21.8243]
+  "Portugal": [39.3999, -8.2245]
+  "Ireland": [53.1424, -7.6921]
+  "Israel": [31.0461, 34.8516]
+
+# Supplier Synthesis Configuration (§4.4 REQ-2)
+supplier_synthesis:
+  alternates_per_category: 2
+  defect_rate_beta_alpha: 2.0
+  defect_rate_beta_beta: 50.0
+  defect_rate_clip: [0.005, 0.15]
+  lead_time_mean_days: 6.0
+  lead_time_std_days: 2.0
+  lead_time_clip: [1, 21]
+  cost_tradeoff_factor: 1.15
+  reliability_tradeoff_std: 0.08
+  alternate_coverage_ratio: 0.80
+  niche_product_ids: [12, 45, 87, 102]

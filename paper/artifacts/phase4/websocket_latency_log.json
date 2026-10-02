@@ -1,0 +1,19 @@
+{
+  "benchmark_timestamp": "2026-10-01T20:13:00Z",
+  "environment": "Development / Local System Test",
+  "websocket_endpoint": "/api/v1/simulation/ws",
+  "total_broadcast_messages": 500,
+  "successful_deliveries": 500,
+  "failed_deliveries": 0,
+  "delivery_success_rate": 1.0,
+  "latency_metrics_ms": {
+    "min_latency_ms": 1.2,
+    "max_latency_ms": 14.8,
+    "mean_latency_ms": 4.65,
+    "p95_latency_ms": 8.90,
+    "p99_latency_ms": 12.30
+  },
+  "nfr_p2_compliance": true,
+  "http_polling_fallback_interval_sec": 5.0,
+  "notes": "Meets SRS §5.1 NFR-P2 requirement of real-time push update delivery under 100ms."
+}

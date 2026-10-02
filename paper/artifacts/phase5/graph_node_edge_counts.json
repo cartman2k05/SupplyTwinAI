@@ -1,0 +1,25 @@
+{
+  "timestamp": "2026-10-01T20:35:00Z",
+  "database": "Neo4j Community Edition 5.18.0",
+  "node_counts_by_label": {
+    "Supplier": 153,
+    "Product": 118,
+    "Warehouse": 23,
+    "Order": 500,
+    "Shipment": 500,
+    "Vehicle": 50,
+    "DisruptionEvent": 6,
+    "total_nodes": 1350
+  },
+  "relationship_counts_by_type": {
+    "SUPPLIES": 350,
+    "STOCKED_AT": 450,
+    "CONTAINS": 720,
+    "FULFILLED_FROM": 500,
+    "SHIPS_VIA": 500,
+    "DELAYED_BY": 14,
+    "AFFECTS": 6,
+    "total_relationships": 2540
+  },
+  "global_id_constraint_compliance": 1.0
+}

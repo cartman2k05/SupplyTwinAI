@@ -1,0 +1,24 @@
+warehouse_id,region,city,capacity,current_stock,is_synthetic
+1,Canada,Canada,327,234,True
+2,Caribbean,Caribbean,2731,1661,True
+3,Central Africa,Central Africa,555,261,True
+4,Central America,Central America,9314,1937,True
+5,Central Asia,Central Asia,182,139,True
+6,East Africa,East Africa,607,327,True
+7,East of USA,East of USA,2266,977,True
+8,Eastern Asia,Eastern Asia,2154,451,True
+9,Eastern Europe,Eastern Europe,1321,447,True
+10,North Africa,North Africa,1073,370,True
+11,Northern Europe,Northern Europe,3060,1866,True
+12,Oceania,Oceania,3064,1734,True
+13,South America,South America,4897,3427,True
+14,South Asia,South Asia,2344,713,True
+15,South of  USA ,South of  USA ,1321,574,True
+16,Southeast Asia,Southeast Asia,2825,874,True
+17,Southern Africa,Southern Africa,376,246,True
+18,Southern Europe,Southern Europe,2929,1333,True
+19,US Center ,US Center ,1946,632,True
+20,West Africa,West Africa,1229,664,True
+21,West Asia,West Asia,1983,434,True
+22,West of USA ,West of USA ,2632,1857,True
+23,Western Europe,Western Europe,8476,3982,True

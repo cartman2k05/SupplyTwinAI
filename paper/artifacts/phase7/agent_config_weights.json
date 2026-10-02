@@ -1,0 +1,21 @@
+{
+  "specification": "Configurable Agent Risk Weights and Threshold Parameters",
+  "source_table": "agent_config",
+  "risk_weights": {
+    "risk_weight_supplier": 0.30,
+    "risk_weight_shipment": 0.30,
+    "risk_weight_inventory": 0.20,
+    "risk_weight_external": 0.20,
+    "total_weight_sum": 1.00
+  },
+  "risk_thresholds": {
+    "threshold_low_medium": 33.0,
+    "threshold_medium_high": 66.0,
+    "alert_threshold_recommendation": 60.0
+  },
+  "governance_rules": {
+    "human_approval_mandatory": true,
+    "recommendations_auto_applied": false,
+    "reasoning_trail_persistence": true
+  }
+}

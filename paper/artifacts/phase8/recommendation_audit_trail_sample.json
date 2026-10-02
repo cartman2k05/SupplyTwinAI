@@ -1,0 +1,30 @@
+[
+  {
+    "log_id": 101,
+    "user_id": 2,
+    "user_email": "manager@supplytwin.ai",
+    "action": "RECOMMENDATION_ACCEPTED",
+    "resource_type": "recommendation",
+    "resource_id": "recommendation:a1f8c92e",
+    "details_json": {
+      "action_type": "SWITCH_SUPPLIER",
+      "entity_global_id": "supplier:1",
+      "notes": "Approved after reviewing alternate capacity pool with 95% on-time performance."
+    },
+    "timestamp": "2026-10-01T21:35:12Z"
+  },
+  {
+    "log_id": 102,
+    "user_id": 2,
+    "user_email": "manager@supplytwin.ai",
+    "action": "RECOMMENDATION_REJECTED",
+    "resource_type": "recommendation",
+    "resource_id": "recommendation:b7d4e11a",
+    "details_json": {
+      "action_type": "REROUTE_SHIPMENT",
+      "entity_global_id": "shipment:77202",
+      "notes": "Cost of air transport rerouting exceeds regional operational budget limit ($2,500)."
+    },
+    "timestamp": "2026-10-01T21:38:45Z"
+  }
+]

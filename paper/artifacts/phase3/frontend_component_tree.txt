@@ -1,0 +1,24 @@
+frontend/src/
+├── index.css                   # Glassmorphism, Tailwind HSL tokens & dark theme
+├── main.jsx
+├── App.jsx                     # Router, AuthGuard & RoleGuard
+├── context/
+│   └── AuthContext.jsx         # React AuthContext, JWT storage & user roles
+├── services/
+│   └── api.js                  # Fetch API client with Bearer Token interceptor
+├── components/
+│   ├── layout/
+│   │   ├── Navbar.jsx          # Top bar, system status indicator & user badge
+│   │   └── Sidebar.jsx         # Role-aware navigation links (Hides Admin for Manager)
+│   └── dashboard/
+│       ├── KPICard.jsx         # Reusable metric widget (Shipments, Risk, Reliability, Recs)
+│       ├── RiskChart.jsx       # Chart.js Risk Distribution Doughnut Chart
+│       ├── DelayChart.jsx      # Chart.js Shipping Mode Delay Bar Chart
+│       └── DisruptionsTable.jsx# Active disruption events table widget
+└── pages/
+    ├── Login.jsx               # Login view with demo quick-login helpers
+    ├── Dashboard.jsx           # Manager Dashboard page & Market filter
+    ├── Shipments.jsx           # Shipment tracking table page
+    ├── Inventory.jsx           # Warehouse stock table page
+    ├── Suppliers.jsx           # Supplier performance table page
+    └── AdminConfig.jsx         # Admin risk threshold & weight config page

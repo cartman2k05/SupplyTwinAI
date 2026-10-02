@@ -1,0 +1,154 @@
+supplier_id,global_id,name,category_id,category,country,is_primary,on_time_rate,defect_rate,lead_time_days,rating,is_synthetic
+1,supplier:1,Primary Supplier - Soccer,2,Soccer,United States,True,0.4565,0.042,5,4.2,True
+2,supplier:2,Alt Supplier 1 - Soccer,2,Soccer,Japan,False,0.4586,0.0316,13,4.52,True
+3,supplier:3,Alt Supplier 2 - Soccer,2,Soccer,Germany,False,0.4858,0.0062,3,3.68,True
+4,supplier:4,Primary Supplier - Baseball & Softball,3,Baseball & Softball,United States,True,0.4478,0.0134,4,4.31,True
+5,supplier:5,Alt Supplier 1 - Baseball & Softball,3,Baseball & Softball,Japan,False,0.499,0.0303,8,4.0,True
+6,supplier:6,Alt Supplier 2 - Baseball & Softball,3,Baseball & Softball,Mexico,False,0.3582,0.0309,11,4.43,True
+7,supplier:7,Primary Supplier - Basketball,4,Basketball,United States,True,0.4478,0.045,5,4.75,True
+8,supplier:8,Alt Supplier 1 - Basketball,4,Basketball,Mexico,False,0.3914,0.1374,10,4.22,True
+9,supplier:9,Alt Supplier 2 - Basketball,4,Basketball,India,False,0.5108,0.0334,13,4.52,True
+10,supplier:10,Primary Supplier - Lacrosse,5,Lacrosse,United States,True,0.3994,0.0493,4,4.68,True
+11,supplier:11,Alt Supplier 1 - Lacrosse,5,Lacrosse,Japan,False,0.3921,0.0378,11,3.4,True
+12,supplier:12,Alt Supplier 2 - Lacrosse,5,Lacrosse,Germany,False,0.4077,0.0664,3,3.26,True
+13,supplier:13,Primary Supplier - Tennis & Racquet,6,Tennis & Racquet,United States,True,0.4421,0.0138,4,4.13,True
+14,supplier:14,Alt Supplier 1 - Tennis & Racquet,6,Tennis & Racquet,Mexico,False,0.4292,0.0851,11,4.36,True
+15,supplier:15,Alt Supplier 2 - Tennis & Racquet,6,Tennis & Racquet,India,False,0.6772,0.0462,5,3.48,True
+16,supplier:16,Primary Supplier - Hockey,7,Hockey,United States,True,0.4642,0.0155,3,4.1,True
+17,supplier:17,Alt Supplier 1 - Hockey,7,Hockey,United Kingdom,False,0.5392,0.0809,11,4.57,True
+18,supplier:18,Alt Supplier 2 - Hockey,7,Hockey,Japan,False,0.4695,0.0151,3,3.96,True
+19,supplier:19,Primary Supplier - Cardio Equipment,9,Cardio Equipment,United States,True,0.455,0.0145,4,4.11,True
+20,supplier:20,Alt Supplier 1 - Cardio Equipment,9,Cardio Equipment,China,False,0.3,0.0947,3,4.47,True
+21,supplier:21,Alt Supplier 2 - Cardio Equipment,9,Cardio Equipment,Germany,False,0.5036,0.038,13,3.67,True
+22,supplier:22,Primary Supplier - Strength Training,10,Strength Training,United States,True,0.4234,0.0515,5,4.03,True
+23,supplier:23,Alt Supplier 1 - Strength Training,10,Strength Training,India,False,0.339,0.0558,6,3.49,True
+24,supplier:24,Alt Supplier 2 - Strength Training,10,Strength Training,Germany,False,0.3819,0.0229,10,3.79,True
+25,supplier:25,Primary Supplier - Fitness Accessories,11,Fitness Accessories,United States,True,0.4304,0.0234,4,4.29,True
+26,supplier:26,Alt Supplier 1 - Fitness Accessories,11,Fitness Accessories,China,False,0.522,0.0244,13,4.58,True
+27,supplier:27,Alt Supplier 2 - Fitness Accessories,11,Fitness Accessories,Germany,False,0.5208,0.0167,11,3.21,True
+28,supplier:28,Primary Supplier - Boxing & MMA,12,Boxing & MMA,United States,True,0.4374,0.0088,4,4.71,True
+29,supplier:29,Alt Supplier 1 - Boxing & MMA,12,Boxing & MMA,Germany,False,0.5404,0.024,2,3.9,True
+30,supplier:30,Alt Supplier 2 - Boxing & MMA,12,Boxing & MMA,India,False,0.4401,0.0163,13,3.23,True
+31,supplier:31,Primary Supplier - Electronics,13,Electronics,United States,True,0.4437,0.0558,4,4.82,True
+32,supplier:32,Alt Supplier 1 - Electronics,13,Electronics,Germany,False,0.5321,0.0309,8,3.8,True
+33,supplier:33,Alt Supplier 2 - Electronics,13,Electronics,China,False,0.476,0.0439,13,4.42,True
+34,supplier:34,Primary Supplier - As Seen on  TV!,16,As Seen on  TV!,United States,True,0.4265,0.0315,3,4.03,True
+35,supplier:35,Alt Supplier 1 - As Seen on  TV!,16,As Seen on  TV!,China,False,0.3272,0.0464,7,3.69,True
+36,supplier:36,Alt Supplier 2 - As Seen on  TV!,16,As Seen on  TV!,United Kingdom,False,0.4185,0.0908,2,3.5,True
+37,supplier:37,Primary Supplier - Cleats,17,Cleats,United States,True,0.4503,0.0146,5,4.47,True
+38,supplier:38,Alt Supplier 1 - Cleats,17,Cleats,Germany,False,0.6215,0.025,10,3.97,True
+39,supplier:39,Alt Supplier 2 - Cleats,17,Cleats,United Kingdom,False,0.4141,0.0203,3,3.21,True
+40,supplier:40,Primary Supplier - Men's Footwear,18,Men's Footwear,United States,True,0.4551,0.0638,4,4.11,True
+41,supplier:41,Alt Supplier 1 - Men's Footwear,18,Men's Footwear,China,False,0.5841,0.0449,8,3.58,True
+42,supplier:42,Alt Supplier 2 - Men's Footwear,18,Men's Footwear,Japan,False,0.4242,0.0167,6,3.56,True
+43,supplier:43,Primary Supplier - Women's Apparel,24,Women's Apparel,United States,True,0.4544,0.0369,3,4.56,True
+44,supplier:44,Alt Supplier 1 - Women's Apparel,24,Women's Apparel,Germany,False,0.4883,0.0862,10,4.13,True
+45,supplier:45,Alt Supplier 2 - Women's Apparel,24,Women's Apparel,India,False,0.4049,0.0589,13,3.42,True
+46,supplier:46,Primary Supplier - Girls' Apparel,26,Girls' Apparel,United States,True,0.4471,0.0062,4,4.9,True
+47,supplier:47,Alt Supplier 1 - Girls' Apparel,26,Girls' Apparel,Japan,False,0.3959,0.1167,3,3.96,True
+48,supplier:48,Alt Supplier 2 - Girls' Apparel,26,Girls' Apparel,India,False,0.3,0.0858,5,4.49,True
+49,supplier:49,Primary Supplier - Shop By Sport,29,Shop By Sport,United States,True,0.4485,0.0494,3,4.63,True
+50,supplier:50,Alt Supplier 1 - Shop By Sport,29,Shop By Sport,Mexico,False,0.4669,0.0386,11,3.7,True
+51,supplier:51,Alt Supplier 2 - Shop By Sport,29,Shop By Sport,United Kingdom,False,0.4012,0.0661,7,3.44,True
+52,supplier:52,Primary Supplier - Men's Golf Clubs,30,Men's Golf Clubs,United States,True,0.523,0.0494,4,4.25,True
+53,supplier:53,Alt Supplier 1 - Men's Golf Clubs,30,Men's Golf Clubs,India,False,0.438,0.0663,12,3.29,True
+54,supplier:54,Alt Supplier 2 - Men's Golf Clubs,30,Men's Golf Clubs,India,False,0.6015,0.0501,2,4.12,True
+55,supplier:55,Primary Supplier - Women's Golf Clubs,31,Women's Golf Clubs,United States,True,0.4641,0.0149,5,4.05,True
+56,supplier:56,Alt Supplier 1 - Women's Golf Clubs,31,Women's Golf Clubs,China,False,0.3,0.1084,7,3.79,True
+57,supplier:57,Alt Supplier 2 - Women's Golf Clubs,31,Women's Golf Clubs,Japan,False,0.4926,0.0239,11,3.45,True
+58,supplier:58,Primary Supplier - Golf Apparel,32,Golf Apparel,United States,True,0.4807,0.0177,6,4.64,True
+59,supplier:59,Alt Supplier 1 - Golf Apparel,32,Golf Apparel,Mexico,False,0.3293,0.0318,2,4.14,True
+60,supplier:60,Alt Supplier 2 - Golf Apparel,32,Golf Apparel,China,False,0.4554,0.0285,2,4.18,True
+61,supplier:61,Primary Supplier - Golf Shoes,33,Golf Shoes,United States,True,0.4447,0.0679,4,4.54,True
+62,supplier:62,Alt Supplier 1 - Golf Shoes,33,Golf Shoes,Japan,False,0.3266,0.0099,5,4.47,True
+63,supplier:63,Alt Supplier 2 - Golf Shoes,33,Golf Shoes,Mexico,False,0.657,0.0095,2,3.27,True
+64,supplier:64,Primary Supplier - Golf Bags & Carts,34,Golf Bags & Carts,United States,True,0.35,0.0448,4,4.07,True
+65,supplier:65,Alt Supplier 1 - Golf Bags & Carts,34,Golf Bags & Carts,Japan,False,0.5336,0.0568,11,4.13,True
+66,supplier:66,Alt Supplier 2 - Golf Bags & Carts,34,Golf Bags & Carts,Germany,False,0.3135,0.0856,11,4.42,True
+67,supplier:67,Primary Supplier - Golf Gloves,35,Golf Gloves,United States,True,0.4374,0.0563,5,4.5,True
+68,supplier:68,Alt Supplier 1 - Golf Gloves,35,Golf Gloves,China,False,0.4357,0.0859,3,3.53,True
+69,supplier:69,Alt Supplier 2 - Golf Gloves,35,Golf Gloves,United Kingdom,False,0.3,0.0599,13,3.98,True
+70,supplier:70,Primary Supplier - Golf Balls,36,Golf Balls,United States,True,0.4542,0.0202,7,4.53,True
+71,supplier:71,Alt Supplier 1 - Golf Balls,36,Golf Balls,Germany,False,0.4985,0.0309,4,3.25,True
+72,supplier:72,Alt Supplier 2 - Golf Balls,36,Golf Balls,Mexico,False,0.576,0.0388,4,4.13,True
+73,supplier:73,Primary Supplier - Electronics,37,Electronics,United States,True,0.4367,0.0618,6,4.39,True
+74,supplier:74,Alt Supplier 1 - Electronics,37,Electronics,United Kingdom,False,0.4458,0.0686,10,3.81,True
+75,supplier:75,Alt Supplier 2 - Electronics,37,Electronics,United Kingdom,False,0.5233,0.0141,3,3.39,True
+76,supplier:76,Primary Supplier - Kids' Golf Clubs,38,Kids' Golf Clubs,United States,True,0.4661,0.0737,6,4.13,True
+77,supplier:77,Alt Supplier 1 - Kids' Golf Clubs,38,Kids' Golf Clubs,China,False,0.5405,0.038,9,4.1,True
+78,supplier:78,Alt Supplier 2 - Kids' Golf Clubs,38,Kids' Golf Clubs,Germany,False,0.4905,0.0969,11,4.48,True
+79,supplier:79,Primary Supplier - Accessories,40,Accessories,United States,True,0.4303,0.0215,6,4.62,True
+80,supplier:80,Alt Supplier 1 - Accessories,40,Accessories,Japan,False,0.4528,0.0308,12,4.58,True
+81,supplier:81,Alt Supplier 2 - Accessories,40,Accessories,Japan,False,0.3811,0.0886,2,4.38,True
+82,supplier:82,Primary Supplier - Trade-In,41,Trade-In,United States,True,0.4435,0.0421,7,4.41,True
+83,supplier:83,Alt Supplier 1 - Trade-In,41,Trade-In,China,False,0.4268,0.0672,8,3.91,True
+84,supplier:84,Alt Supplier 2 - Trade-In,41,Trade-In,Japan,False,0.4104,0.0703,9,3.31,True
+85,supplier:85,Primary Supplier - Camping & Hiking,43,Camping & Hiking,United States,True,0.4547,0.0227,7,4.84,True
+86,supplier:86,Alt Supplier 1 - Camping & Hiking,43,Camping & Hiking,India,False,0.4322,0.033,13,4.12,True
+87,supplier:87,Alt Supplier 2 - Camping & Hiking,43,Camping & Hiking,India,False,0.4609,0.0815,6,4.47,True
+88,supplier:88,Primary Supplier - Hunting & Shooting,44,Hunting & Shooting,United States,True,0.4386,0.0282,4,4.23,True
+89,supplier:89,Alt Supplier 1 - Hunting & Shooting,44,Hunting & Shooting,Germany,False,0.3486,0.0169,9,3.48,True
+90,supplier:90,Alt Supplier 2 - Hunting & Shooting,44,Hunting & Shooting,China,False,0.5362,0.0197,6,3.43,True
+91,supplier:91,Primary Supplier - Fishing,45,Fishing,United States,True,0.4507,0.044,5,4.01,True
+92,supplier:92,Alt Supplier 1 - Fishing,45,Fishing,China,False,0.4739,0.0203,11,3.37,True
+93,supplier:93,Alt Supplier 2 - Fishing,45,Fishing,United Kingdom,False,0.5036,0.035,2,3.75,True
+94,supplier:94,Primary Supplier - Indoor/Outdoor Games,46,Indoor/Outdoor Games,United States,True,0.4525,0.0169,6,4.89,True
+95,supplier:95,Alt Supplier 1 - Indoor/Outdoor Games,46,Indoor/Outdoor Games,Germany,False,0.497,0.0423,4,3.37,True
+96,supplier:96,Alt Supplier 2 - Indoor/Outdoor Games,46,Indoor/Outdoor Games,Japan,False,0.6324,0.017,11,4.58,True
+97,supplier:97,Primary Supplier - Water Sports,48,Water Sports,United States,True,0.4519,0.0343,4,4.23,True
+98,supplier:98,Alt Supplier 1 - Water Sports,48,Water Sports,Japan,False,0.5005,0.1028,3,4.32,True
+99,supplier:99,Alt Supplier 2 - Water Sports,48,Water Sports,China,False,0.4159,0.0144,2,4.12,True
+100,supplier:100,Primary Supplier - Books ,59,Books ,United States,True,0.4346,0.0372,7,4.14,True
+101,supplier:101,Alt Supplier 1 - Books ,59,Books ,Japan,False,0.5478,0.0324,2,3.97,True
+102,supplier:102,Alt Supplier 2 - Books ,59,Books ,Mexico,False,0.5,0.0546,2,3.69,True
+103,supplier:103,Primary Supplier - Baby ,60,Baby ,United States,True,0.4734,0.0338,6,4.13,True
+104,supplier:104,Alt Supplier 1 - Baby ,60,Baby ,Germany,False,0.4074,0.0946,4,3.68,True
+105,supplier:105,Alt Supplier 2 - Baby ,60,Baby ,Japan,False,0.4211,0.015,11,4.12,True
+106,supplier:106,Primary Supplier - CDs ,61,CDs ,United States,True,0.4797,0.0411,4,4.79,True
+107,supplier:107,Alt Supplier 1 - CDs ,61,CDs ,Japan,False,0.4399,0.0554,10,4.38,True
+108,supplier:108,Alt Supplier 2 - CDs ,61,CDs ,India,False,0.5155,0.1161,10,4.21,True
+109,supplier:109,Primary Supplier - Cameras ,62,Cameras ,United States,True,0.4189,0.127,4,4.77,True
+110,supplier:110,Alt Supplier 1 - Cameras ,62,Cameras ,India,False,0.5582,0.071,12,3.66,True
+111,supplier:111,Alt Supplier 2 - Cameras ,62,Cameras ,India,False,0.3285,0.0565,6,3.91,True
+112,supplier:112,Primary Supplier - Children's Clothing,63,Children's Clothing,United States,True,0.4663,0.0111,4,4.69,True
+113,supplier:113,Alt Supplier 1 - Children's Clothing,63,Children's Clothing,China,False,0.5249,0.0393,8,4.27,True
+114,supplier:114,Alt Supplier 2 - Children's Clothing,63,Children's Clothing,United Kingdom,False,0.5702,0.089,2,3.26,True
+115,supplier:115,Primary Supplier - Computers,64,Computers,United States,True,0.4932,0.0393,5,4.07,True
+116,supplier:116,Alt Supplier 1 - Computers,64,Computers,Germany,False,0.4495,0.0663,6,4.33,True
+117,supplier:117,Alt Supplier 2 - Computers,64,Computers,Germany,False,0.5994,0.14,8,4.43,True
+118,supplier:118,Primary Supplier - Consumer Electronics,65,Consumer Electronics,United States,True,0.4478,0.0368,7,4.47,True
+119,supplier:119,Alt Supplier 1 - Consumer Electronics,65,Consumer Electronics,Japan,False,0.5311,0.073,4,4.04,True
+120,supplier:120,Alt Supplier 2 - Consumer Electronics,65,Consumer Electronics,Germany,False,0.3919,0.0132,11,4.54,True
+121,supplier:121,Primary Supplier - Crafts,66,Crafts,United States,True,0.4401,0.0131,7,4.02,True
+122,supplier:122,Alt Supplier 1 - Crafts,66,Crafts,United Kingdom,False,0.3,0.0486,6,3.79,True
+123,supplier:123,Alt Supplier 2 - Crafts,66,Crafts,United Kingdom,False,0.4479,0.1329,6,3.87,True
+124,supplier:124,Primary Supplier - DVDs,67,DVDs,United States,True,0.4638,0.0318,4,4.14,True
+125,supplier:125,Alt Supplier 1 - DVDs,67,DVDs,Germany,False,0.487,0.0661,6,4.58,True
+126,supplier:126,Alt Supplier 2 - DVDs,67,DVDs,Mexico,False,0.5175,0.0536,9,3.25,True
+127,supplier:127,Primary Supplier - Garden,68,Garden,United States,True,0.4421,0.0267,3,4.52,True
+128,supplier:128,Alt Supplier 1 - Garden,68,Garden,India,False,0.4241,0.0571,12,4.09,True
+129,supplier:129,Alt Supplier 2 - Garden,68,Garden,United Kingdom,False,0.5275,0.0146,2,4.1,True
+130,supplier:130,Primary Supplier - Health and Beauty,69,Health and Beauty,United States,True,0.442,0.0318,3,4.73,True
+131,supplier:131,Alt Supplier 1 - Health and Beauty,69,Health and Beauty,Germany,False,0.3994,0.0331,7,4.28,True
+132,supplier:132,Alt Supplier 2 - Health and Beauty,69,Health and Beauty,China,False,0.5087,0.0304,11,4.03,True
+133,supplier:133,Primary Supplier - Men's Clothing,70,Men's Clothing,United States,True,0.4567,0.0022,4,4.25,True
+134,supplier:134,Alt Supplier 1 - Men's Clothing,70,Men's Clothing,Japan,False,0.5584,0.0129,7,4.08,True
+135,supplier:135,Alt Supplier 2 - Men's Clothing,70,Men's Clothing,United Kingdom,False,0.3782,0.0585,2,4.5,True
+136,supplier:136,Primary Supplier - Music,71,Music,United States,True,0.4286,0.013,4,4.43,True
+137,supplier:137,Alt Supplier 1 - Music,71,Music,India,False,0.3152,0.14,10,3.91,True
+138,supplier:138,Alt Supplier 2 - Music,71,Music,United Kingdom,False,0.3258,0.0058,11,4.5,True
+139,supplier:139,Primary Supplier - Pet Supplies,72,Pet Supplies,United States,True,0.4106,0.014,7,4.81,True
+140,supplier:140,Alt Supplier 1 - Pet Supplies,72,Pet Supplies,Germany,False,0.4587,0.0316,12,3.33,True
+141,supplier:141,Alt Supplier 2 - Pet Supplies,72,Pet Supplies,China,False,0.3421,0.0301,9,4.53,True
+142,supplier:142,Primary Supplier - Sporting Goods,73,Sporting Goods,United States,True,0.4454,0.0517,3,4.62,True
+143,supplier:143,Alt Supplier 1 - Sporting Goods,73,Sporting Goods,United Kingdom,False,0.5844,0.0408,2,3.28,True
+144,supplier:144,Alt Supplier 2 - Sporting Goods,73,Sporting Goods,Japan,False,0.427,0.0798,6,3.43,True
+145,supplier:145,Primary Supplier - Toys,74,Toys,United States,True,0.4499,0.0085,5,4.62,True
+146,supplier:146,Alt Supplier 1 - Toys,74,Toys,India,False,0.4369,0.0242,12,4.44,True
+147,supplier:147,Alt Supplier 2 - Toys,74,Toys,China,False,0.475,0.0575,13,3.59,True
+148,supplier:148,Primary Supplier - Video Games,75,Video Games,United States,True,0.457,0.0503,5,4.58,True
+149,supplier:149,Alt Supplier 1 - Video Games,75,Video Games,Mexico,False,0.5215,0.0237,10,4.43,True
+150,supplier:150,Alt Supplier 2 - Video Games,75,Video Games,United Kingdom,False,0.493,0.0697,9,3.67,True
+151,supplier:151,Primary Supplier - Women's Clothing,76,Women's Clothing,United States,True,0.4354,0.0182,7,4.36,True
+152,supplier:152,Alt Supplier 1 - Women's Clothing,76,Women's Clothing,Japan,False,0.3023,0.0419,12,3.28,True
+153,supplier:153,Alt Supplier 2 - Women's Clothing,76,Women's Clothing,India,False,0.3846,0.0322,10,4.08,True

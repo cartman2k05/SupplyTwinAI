@@ -1,0 +1,27 @@
+{
+  "title": "SupplyTwinAI: An Autonomous Multi-Agent Digital Twin for Supply Chain Resiliency Using Knowledge Graphs and Persistent Disruption Memory",
+  "target_journal": "IEEE Transactions on Engineering Management (IEEE TEM)",
+  "formatting_class": "IEEEtran",
+  "total_sections": 6,
+  "sections": [
+    "Abstract & Keywords",
+    "I. Introduction",
+    "II. System Architecture & Digital Twin Layer",
+    "III. GraphRAG & Multi-Agent Layer",
+    "IV. Empirical Evaluation & Comparative Benchmark",
+    "V. Conclusion & Governance"
+  ],
+  "total_words_estimate": 4850,
+  "total_tables": 1,
+  "total_figures": 2,
+  "total_references": 12,
+  "evaluation_benchmarks": {
+    "scenarios_evaluated": 60,
+    "config_a_f1": 0.2171,
+    "config_b_f1": 0.9206,
+    "config_c_f1": 0.9428,
+    "config_c_grounding_rate": 0.98,
+    "config_c_mean_latency_ms": 72.79
+  },
+  "status": "Final Capstone Release Ready"
+}

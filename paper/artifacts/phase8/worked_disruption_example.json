@@ -1,0 +1,44 @@
+{
+  "scenario_id": "SIM_SUPPLIER_OUTAGE_007",
+  "target_entity": "supplier:12",
+  "event_type": "SUPPLIER_OUTAGE",
+  "description": "Primary supplier factory power outage and component line halt in Southeast Region.",
+  "configuration_comparison": {
+    "config_b_without_memory": {
+      "mode": "Configuration B (LLM + GraphRAG)",
+      "composite_risk_score": 78.5,
+      "risk_band": "HIGH",
+      "recommended_action": "SWITCH_SUPPLIER",
+      "confidence_score": 0.84,
+      "prior_memory_citations": [],
+      "reasoning_summary": "High risk detected from supplier defect rate (8.2%) and transit delay (3.2 days). Recommends default alternate supplier pool reallocation without historical outcome verification."
+    },
+    "config_c_with_persistent_memory": {
+      "mode": "Configuration C (LLM + GraphRAG + Persistent Memory)",
+      "composite_risk_score": 78.5,
+      "risk_band": "HIGH",
+      "recommended_action": "SWITCH_SUPPLIER",
+      "confidence_score": 0.89,
+      "prior_memory_citations": [
+        {
+          "memory_id": 14,
+          "entity_global_id": "supplier:12",
+          "event_type": "SUPPLIER_OUTAGE",
+          "action_taken": "SWITCH_SUPPLIER",
+          "outcome_score": 94.5,
+          "root_cause": "Prior factory grid shutdown in Q2",
+          "resolution_notes": "Reallocated 100% volume to alternate supplier:102 (Lead time 2 days, defect rate 0.012). Recovery completed in 48 hours."
+        }
+      ],
+      "reasoning_summary": "Recommends switching to alternate supplier:102 supported by prior successful resolution (Memory #14, outcome score 94.5%). Confidence boosted to 0.89 due to historical grounding."
+    }
+  },
+  "human_governance_event": {
+    "action": "ACCEPT_RECOMMENDATION",
+    "decided_by": "manager@supplytwin.ai",
+    "timestamp": "2026-10-01T21:40:00Z",
+    "status_transition": "pending -> accepted",
+    "audit_log_id": 104,
+    "new_memory_created": 19
+  }
+}

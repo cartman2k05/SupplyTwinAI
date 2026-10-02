@@ -1,0 +1,23 @@
+- Data Cleaning Log — 2026-07-09T10:48:38.826748
+- Loading raw dataset...
+- Raw shape: 180519 rows, 53 columns
+- Dropped placeholder/empty/unusable columns: ['Customer Email', 'Customer Password', 'Product Status', 'Product Description', 'Order Zipcode', 'Product Image']
+- Filled 8 missing 'Customer Lname' with 'Unknown'.
+- Filled 3 missing 'Customer Zipcode' with median (19380.0).
+- No remaining nulls after fill.
+- Removed 0 exact duplicate rows.
+- Parsed 'order date (DateOrders)' and 'shipping date (DateOrders)' as datetime.
+- Engineered: delivery_delay_days, order_month, order_weekday, order_is_weekend.
+- Cleaned shape (pre-split): 180519 rows, 51 columns
+- Verified: all order-level columns are constant within each Order Id (safe to split into orders/shipments).
+- Built customers.csv: 20652 rows (dropped Email/Password/Street as placeholder/PII-noise).
+- Built products.csv: 118 rows.
+- Built orders.csv: 65752 rows (order grain, Order Status/Lat/Long retained).
+- Built shipments.csv: 65752 rows (1:1 with orders).
+- Built order_items.csv: 180519 rows — preserves order<->product link and ALL profit/margin fields (profit_ratio, benefit_per_order, profit_per_order, sales_per_customer) at correct line-item grain.
+- Built suppliers.csv: 50 rows — SYNTHETIC (1 supplier per product category; DataCo has no real supplier entity). risk_score/lead_time_days/rating are grounded in real aggregate stats (actual late-delivery rate, actual avg shipping days per category) rather than randomly generated. Flagged with is_synthetic=True — disclose this in the paper's data/methodology section.
+- Built warehouses.csv: 23 rows — SYNTHETIC (1 per Order Region; DataCo has no warehouse entity). capacity is grounded in real order-item volume per region; current_stock is randomly seeded within capacity (no real inventory signal exists in source data). Flagged with is_synthetic=True.
+- Built vehicles.csv: 30 rows — SYNTHETIC fleet pool. Deliberately NOT pre-assigned to specific orders/shipments: per the project's simulation layer, vehicle assignment and movement should be generated live by the Simulation module, not baked into static ETL output.
+- Built relationships.csv: 292928 edges across 5 relation types (PLACED, CONTAINS, SUPPLIES, FULFILLED_FROM, STORED_IN) — up from 2 relation types in the previous pass.
+- Relationship breakdown: {'CONTAINS': np.int64(159763), 'PLACED': np.int64(65752), 'FULFILLED_FROM': np.int64(65752), 'STORED_IN': np.int64(1543), 'SUPPLIES': np.int64(118)}
+- Exported: customers.csv, products.csv, orders.csv, order_items.csv, shipments.csv, suppliers.csv, warehouses.csv, vehicles.csv, relationships.csv

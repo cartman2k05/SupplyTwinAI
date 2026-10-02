@@ -1,0 +1,31 @@
+vehicle_id,global_id,license_plate,vehicle_type,capacity_kg,status,is_synthetic
+1,vehicle:1,TRK-001,Semi-Trailer,24000,available,True
+2,vehicle:2,TRK-002,Box Truck,24000,available,True
+3,vehicle:3,TRK-003,Box Truck,12000,available,True
+4,vehicle:4,TRK-004,Cargo Van,24000,available,True
+5,vehicle:5,TRK-005,Semi-Trailer,24000,available,True
+6,vehicle:6,TRK-006,Cargo Van,5000,available,True
+7,vehicle:7,TRK-007,Cargo Van,5000,available,True
+8,vehicle:8,TRK-008,Box Truck,5000,available,True
+9,vehicle:9,TRK-009,Semi-Trailer,12000,available,True
+10,vehicle:10,TRK-010,Cargo Van,24000,available,True
+11,vehicle:11,TRK-011,Box Truck,24000,available,True
+12,vehicle:12,TRK-012,Semi-Trailer,24000,available,True
+13,vehicle:13,TRK-013,Semi-Trailer,12000,available,True
+14,vehicle:14,TRK-014,Cargo Van,5000,available,True
+15,vehicle:15,TRK-015,Box Truck,24000,available,True
+16,vehicle:16,TRK-016,Cargo Van,5000,available,True
+17,vehicle:17,TRK-017,Box Truck,5000,available,True
+18,vehicle:18,TRK-018,Box Truck,12000,available,True
+19,vehicle:19,TRK-019,Semi-Trailer,24000,available,True
+20,vehicle:20,TRK-020,Box Truck,12000,available,True
+21,vehicle:21,TRK-021,Semi-Trailer,5000,available,True
+22,vehicle:22,TRK-022,Box Truck,12000,available,True
+23,vehicle:23,TRK-023,Semi-Trailer,24000,available,True
+24,vehicle:24,TRK-024,Box Truck,5000,available,True
+25,vehicle:25,TRK-025,Box Truck,5000,available,True
+26,vehicle:26,TRK-026,Semi-Trailer,5000,available,True
+27,vehicle:27,TRK-027,Semi-Trailer,12000,available,True
+28,vehicle:28,TRK-028,Cargo Van,5000,available,True
+29,vehicle:29,TRK-029,Semi-Trailer,5000,available,True
+30,vehicle:30,TRK-030,Semi-Trailer,5000,available,True

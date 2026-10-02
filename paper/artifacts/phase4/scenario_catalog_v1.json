@@ -1,0 +1,56 @@
+[
+  {
+    "scenario_id": "SCENARIO-SUP-01",
+    "name": "Primary Supplier Factory Shutdown",
+    "event_type": "SUPPLIER_FAILURE",
+    "severity": 0.85,
+    "target_global_id": "supplier:1",
+    "acceptable_action_class": "SWITCH_SUPPLIER",
+    "description": "Primary component supplier factory shutdown due to power grid failure."
+  },
+  {
+    "scenario_id": "SCENARIO-LOG-01",
+    "name": "West Coast Port Congestion Cluster",
+    "event_type": "SHIPMENT_DELAY_CLUSTER",
+    "severity": 0.75,
+    "target_global_id": "shipment:77202",
+    "acceptable_action_class": "REROUTE_SHIPMENT",
+    "description": "Major maritime port congestion causing delay cluster across West Coast shipping lanes."
+  },
+  {
+    "scenario_id": "SCENARIO-WTH-01",
+    "name": "Midwest Blizzard Transit Corridor Disturbance",
+    "event_type": "WEATHER_EVENT",
+    "severity": 0.9,
+    "target_global_id": "warehouse:1",
+    "acceptable_action_class": "EXPEDITE_SHIPPING",
+    "description": "Category 4 blizzard causing severe ground transport delay across Midwest distribution corridor."
+  },
+  {
+    "scenario_id": "SCENARIO-STK-01",
+    "name": "Fulfillment Warehouse Stock Depletion",
+    "event_type": "STOCK_OUT",
+    "severity": 0.8,
+    "target_global_id": "inventory:101",
+    "acceptable_action_class": "REALLOCATE_INVENTORY",
+    "description": "Unexpected demand surge causing inventory depletion at regional fulfillment center."
+  },
+  {
+    "scenario_id": "SCENARIO-GEO-01",
+    "name": "Border Customs Inspection Policy Update",
+    "event_type": "GEOPOLITICAL_NEWS",
+    "severity": 0.65,
+    "target_global_id": "supplier:5",
+    "acceptable_action_class": "EXPEDITE_SHIPPING",
+    "description": "Regulatory customs border inspection policy shift delaying cross-border component transport."
+  },
+  {
+    "scenario_id": "SCENARIO-CMP-01",
+    "name": "Typhoon & Secondary Supplier Outage",
+    "event_type": "COMPOUND_EVENT",
+    "severity": 0.95,
+    "target_global_id": "supplier:2",
+    "acceptable_action_class": "SWITCH_SUPPLIER",
+    "description": "Compound event: Severe typhoon causing coastal transit outage and secondary supplier facility damage."
+  }
+]

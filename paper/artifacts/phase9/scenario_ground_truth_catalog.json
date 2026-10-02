@@ -1,0 +1,69 @@
+[
+  {
+    "scenario_id": "SCENARIO-SUP-01",
+    "event_type": "SUPPLIER_OUTAGE",
+    "target_global_id": "supplier:1",
+    "acceptable_action_class": "SWITCH_SUPPLIER",
+    "ground_truth_impacted_entities": [
+      "supplier:1",
+      "product:1",
+      "warehouse:1",
+      "order:1001",
+      "shipment:1001"
+    ],
+    "description": "Primary supplier supplier:1 experienced factory outage and high defect rate.",
+    "severity": "HIGH"
+  },
+  {
+    "scenario_id": "SCENARIO-SHI-01",
+    "event_type": "SHIPMENT_DELAY",
+    "target_global_id": "shipment:1",
+    "acceptable_action_class": "REROUTE_SHIPMENT",
+    "ground_truth_impacted_entities": [
+      "shipment:1",
+      "order:77001",
+      "vehicle:1"
+    ],
+    "description": "Shipment shipment:1 delayed by severe port congestion bottleneck.",
+    "severity": "CRITICAL"
+  },
+  {
+    "scenario_id": "SCENARIO-INV-01",
+    "event_type": "INVENTORY_DEFICIT",
+    "target_global_id": "warehouse:1",
+    "acceptable_action_class": "REALLOCATE_INVENTORY",
+    "ground_truth_impacted_entities": [
+      "warehouse:1",
+      "product:1",
+      "order:2001"
+    ],
+    "description": "Warehouse warehouse:1 safety stock buffer depleted below reorder point.",
+    "severity": "MEDIUM"
+  },
+  {
+    "scenario_id": "SCENARIO-WET-01",
+    "event_type": "WEATHER_EVENT",
+    "target_global_id": "event:1",
+    "acceptable_action_class": "EXPEDITE_SHIPPING",
+    "ground_truth_impacted_entities": [
+      "supplier:1",
+      "warehouse:1",
+      "shipment:1001"
+    ],
+    "description": "External weather_event event affecting transit corridor in Region 1.",
+    "severity": "HIGH"
+  },
+  {
+    "scenario_id": "SCENARIO-GEO-01",
+    "event_type": "GEOPOLITICAL_NEWS",
+    "target_global_id": "event:news_1",
+    "acceptable_action_class": "SWITCH_SUPPLIER",
+    "ground_truth_impacted_entities": [
+      "supplier:1",
+      "warehouse:1",
+      "shipment:1001"
+    ],
+    "description": "External geopolitical_news event affecting transit corridor in Region 1.",
+    "severity": "CRITICAL"
+  }
+]

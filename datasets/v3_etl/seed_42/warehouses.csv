@@ -1,0 +1,24 @@
+warehouse_id,global_id,name,region,latitude,longitude,capacity,is_synthetic
+1,warehouse:1,Warehouse Canada,Canada,0.0,0.0,100000,True
+2,warehouse:2,Warehouse Caribbean,Caribbean,0.0,0.0,100000,True
+3,warehouse:3,Warehouse Central Africa,Central Africa,0.0,0.0,100000,True
+4,warehouse:4,Warehouse Central America,Central America,0.0,0.0,100000,True
+5,warehouse:5,Warehouse Central Asia,Central Asia,0.0,0.0,100000,True
+6,warehouse:6,Warehouse East Africa,East Africa,0.0,0.0,100000,True
+7,warehouse:7,Warehouse East of USA,East of USA,0.0,0.0,100000,True
+8,warehouse:8,Warehouse Eastern Asia,Eastern Asia,0.0,0.0,100000,True
+9,warehouse:9,Warehouse Eastern Europe,Eastern Europe,0.0,0.0,100000,True
+10,warehouse:10,Warehouse North Africa,North Africa,0.0,0.0,100000,True
+11,warehouse:11,Warehouse Northern Europe,Northern Europe,0.0,0.0,100000,True
+12,warehouse:12,Warehouse Oceania,Oceania,0.0,0.0,100000,True
+13,warehouse:13,Warehouse South America,South America,0.0,0.0,100000,True
+14,warehouse:14,Warehouse South Asia,South Asia,0.0,0.0,100000,True
+15,warehouse:15,Warehouse South of  USA ,South of  USA ,0.0,0.0,100000,True
+16,warehouse:16,Warehouse Southeast Asia,Southeast Asia,0.0,0.0,100000,True
+17,warehouse:17,Warehouse Southern Africa,Southern Africa,0.0,0.0,100000,True
+18,warehouse:18,Warehouse Southern Europe,Southern Europe,0.0,0.0,100000,True
+19,warehouse:19,Warehouse US Center ,US Center ,0.0,0.0,100000,True
+20,warehouse:20,Warehouse West Africa,West Africa,0.0,0.0,100000,True
+21,warehouse:21,Warehouse West Asia,West Asia,0.0,0.0,100000,True
+22,warehouse:22,Warehouse West of USA ,West of USA ,0.0,0.0,100000,True
+23,warehouse:23,Warehouse Western Europe,Western Europe,0.0,0.0,100000,True

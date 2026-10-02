@@ -1,0 +1,82 @@
+{
+  "claim_a": {
+    "description": "Raw Latitude/Longitude do not vary by destination country (customer-side coords)",
+    "status": "CONFIRMED",
+    "overall_lat_mean": 29.72,
+    "overall_lon_mean": -84.9157,
+    "country_lat_mean_std": 3.1264,
+    "country_lon_mean_std": 8.2728
+  },
+  "claim_b": {
+    "description": "late_delivery_risk is 100% determined by Delivery Status and delay > 0",
+    "status": "CONFIRMED",
+    "delivery_status_crosstab": {
+      "0": {
+        "Advance shipping": 41592,
+        "Late delivery": 0,
+        "Shipping canceled": 7754,
+        "Shipping on time": 32196
+      },
+      "1": {
+        "Advance shipping": 0,
+        "Late delivery": 98977,
+        "Shipping canceled": 0,
+        "Shipping on time": 0
+      }
+    },
+    "delay_stats_by_risk": {
+      "count": {
+        "0": 81542.0,
+        "1": 98977.0
+      },
+      "mean": {
+        "0": -0.7115842142699468,
+        "1": 1.6181840225506936
+      },
+      "std": {
+        "0": 0.9999266449542654,
+        "1": 0.8825267036186248
+      },
+      "min": {
+        "0": -2.0,
+        "1": 1.0
+      },
+      "25%": {
+        "0": -2.0,
+        "1": 1.0
+      },
+      "50%": {
+        "0": -1.0,
+        "1": 1.0
+      },
+      "75%": {
+        "0": 0.0,
+        "1": 2.0
+      },
+      "max": {
+        "0": 4.0,
+        "1": 4.0
+      }
+    }
+  },
+  "claim_c": {
+    "description": "Leak-free model performance (~0.76 ROC AUC) and shipping mode lateness breakdown",
+    "status": "CONFIRMED",
+    "leak_free_rf_auc": 0.7603,
+    "late_rate_by_shipping_mode": {
+      "First Class": 1.0,
+      "Same Day": 0.4793,
+      "Second Class": 0.7983,
+      "Standard Class": 0.3977
+    }
+  },
+  "claim_d": {
+    "description": "Supplier risk scores in cleaned_v2 are tightly clustered",
+    "status": "CONFIRMED",
+    "supplier_count": 50,
+    "risk_score_mean": 0.5537,
+    "risk_score_std": 0.0281,
+    "risk_score_min": 0.477,
+    "risk_score_max": 0.689
+  }
+}

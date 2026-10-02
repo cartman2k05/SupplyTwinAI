@@ -1,0 +1,36 @@
+{
+  "benchmark_summary": {
+    "total_scenarios": 60,
+    "repetitions_per_scenario": 3,
+    "timestamp": "2026-10-01T21:46:00Z"
+  },
+  "metrics_ablation_data": {
+    "configurations": ["Config A (Base LLM)", "Config B (GraphRAG)", "Config C (GraphRAG + Memory)"],
+    "precision": [0.30, 0.90, 0.90],
+    "recall": [0.1733, 0.96, 1.00],
+    "f1_score": [0.2171, 0.9206, 0.9428],
+    "hallucination_rate": [0.80, 0.40, 0.40],
+    "grounding_rate": [0.42, 0.92, 0.98],
+    "action_validity": [0.40, 0.80, 0.80]
+  },
+  "latency_distribution_ms": {
+    "config_a": {
+      "mean": 253.39,
+      "p50": 245.10,
+      "p95": 309.55,
+      "max": 319.63
+    },
+    "config_b": {
+      "mean": 75.14,
+      "p50": 71.20,
+      "p95": 118.16,
+      "max": 124.17
+    },
+    "config_c": {
+      "mean": 72.79,
+      "p50": 68.50,
+      "p95": 112.98,
+      "max": 118.04
+    }
+  }
+}

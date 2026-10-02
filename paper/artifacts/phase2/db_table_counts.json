@@ -1,0 +1,16 @@
+{
+  "users": 2,
+  "customers": 20652,
+  "products": 118,
+  "suppliers": 153,
+  "supplier_products": 296,
+  "warehouses": 23,
+  "warehouse_inventory": 2714,
+  "orders": 65752,
+  "shipments": 65752,
+  "order_items": 180519,
+  "vehicles": 30,
+  "agent_config": 1,
+  "etl_runs": 2,
+  "audit_log": 2
+}

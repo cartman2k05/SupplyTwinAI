@@ -1,0 +1,45 @@
+{
+  "timestamp": "2026-10-01T16:46:09.933492",
+  "scenarios_evaluated": 5,
+  "configurations": {
+    "config_a": {
+      "mean_precision": 0.3,
+      "mean_recall": 0.1733,
+      "mean_f1": 0.2171,
+      "hallucination_rate": 0.7,
+      "grounding_rate": 0.45,
+      "recommendation_validity": 0.4,
+      "latency_stats_ms": {
+        "mean_ms": 201.55,
+        "p95_ms": 290.35,
+        "max_ms": 290.35
+      }
+    },
+    "config_b": {
+      "mean_precision": 0.9,
+      "mean_recall": 0.92,
+      "mean_f1": 0.8928,
+      "hallucination_rate": 0.4,
+      "grounding_rate": 0.92,
+      "recommendation_validity": 0.0,
+      "latency_stats_ms": {
+        "mean_ms": 30.67,
+        "p95_ms": 38.84,
+        "max_ms": 38.84
+      }
+    },
+    "config_c": {
+      "mean_precision": 0.9,
+      "mean_recall": 1.0,
+      "mean_f1": 0.9428,
+      "hallucination_rate": 0.4,
+      "grounding_rate": 0.98,
+      "recommendation_validity": 0.0,
+      "latency_stats_ms": {
+        "mean_ms": 33.65,
+        "p95_ms": 54.57,
+        "max_ms": 54.57
+      }
+    }
+  }
+}

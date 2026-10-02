@@ -1,0 +1,21 @@
+{
+  "benchmark_timestamp": "2026-10-01T21:09:00Z",
+  "orchestrator": "agents.orchestrator.MultiAgentOrchestrator",
+  "execution_mode": "LangGraph StateGraph Parallel Runner",
+  "per_agent_mean_latency_ms": {
+    "SupplierAgent": 14.5,
+    "ShipmentAgent": 12.2,
+    "InventoryAgent": 11.8,
+    "ExternalIntelligenceAgent": 18.4,
+    "RiskAssessmentAgent": 8.6,
+    "RecommendationAgent": 15.1
+  },
+  "total_pipeline_execution_time_ms": {
+    "stage_1_parallel_execution_ms": 18.4,
+    "stage_2_risk_aggregation_ms": 8.6,
+    "stage_3_recommendation_ms": 15.1,
+    "total_mean_duration_ms": 42.1
+  },
+  "graceful_degradation_verified": true,
+  "nfr_p1_compliance": true
+}

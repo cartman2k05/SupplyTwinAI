@@ -1,0 +1,31 @@
+vehicle_id,type,status,is_synthetic
+1,Truck,Available,True
+2,Ship,Available,True
+3,Rail,In Transit,True
+4,Truck,In Transit,True
+5,Van,In Transit,True
+6,Van,Available,True
+7,Ship,In Transit,True
+8,Air,Available,True
+9,Rail,Maintenance,True
+10,Van,In Transit,True
+11,Van,In Transit,True
+12,Ship,Available,True
+13,Van,Available,True
+14,Truck,Available,True
+15,Truck,In Transit,True
+16,Truck,Available,True
+17,Truck,Available,True
+18,Van,Available,True
+19,Truck,Maintenance,True
+20,Truck,Available,True
+21,Truck,In Transit,True
+22,Truck,In Transit,True
+23,Rail,Available,True
+24,Rail,In Transit,True
+25,Van,In Transit,True
+26,Ship,Available,True
+27,Rail,Maintenance,True
+28,Ship,In Transit,True
+29,Air,In Transit,True
+30,Van,Maintenance,True

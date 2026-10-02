@@ -1,0 +1,51 @@
+supplier_id,name,category,country,risk_score,lead_time_days,rating,avg_profit_ratio,order_volume,is_synthetic
+1,Supplier_Accessories,Accessories,Brazil,0.57,3.5,2.72,0.132,1753,True
+2,Supplier_As Seen on  TV!,As Seen on  TV!,India,0.574,3.6,2.71,0.065,68,True
+3,Supplier_Baby ,Baby ,Vietnam,0.527,3.1,2.89,0.139,207,True
+4,Supplier_Baseball & Softball,Baseball & Softball,Brazil,0.552,3.5,2.79,0.138,628,True
+5,Supplier_Basketball,Basketball,Germany,0.552,3.5,2.79,0.108,64,True
+6,Supplier_Books ,Books ,Vietnam,0.565,3.4,2.74,0.079,405,True
+7,Supplier_Boxing & MMA,Boxing & MMA,Vietnam,0.563,3.5,2.75,0.113,421,True
+8,Supplier_CDs ,CDs ,Brazil,0.52,3.5,2.92,0.136,271,True
+9,Supplier_Cameras ,Cameras ,China,0.581,3.3,2.68,0.126,592,True
+10,Supplier_Camping & Hiking,Camping & Hiking,Germany,0.545,3.5,2.82,0.116,12299,True
+11,Supplier_Cardio Equipment,Cardio Equipment,Brazil,0.545,3.5,2.82,0.119,11355,True
+12,Supplier_Children's Clothing,Children's Clothing,Germany,0.534,3.6,2.87,0.13,652,True
+13,Supplier_Cleats,Cleats,Germany,0.55,3.5,2.8,0.125,20386,True
+14,Supplier_Computers,Computers,Vietnam,0.507,3.6,2.97,0.117,442,True
+15,Supplier_Consumer Electronics,Consumer Electronics,India,0.552,3.4,2.79,0.134,431,True
+16,Supplier_Crafts,Crafts,Germany,0.56,3.6,2.76,0.125,484,True
+17,Supplier_DVDs,DVDs,Mexico,0.536,3.6,2.86,0.096,483,True
+18,Supplier_Electronics,Electronics,Vietnam,0.561,3.5,2.76,0.125,3061,True
+19,Supplier_Fishing,Fishing,China,0.549,3.5,2.8,0.121,15164,True
+20,Supplier_Fitness Accessories,Fitness Accessories,India,0.57,3.6,2.72,0.151,307,True
+21,Supplier_Garden,Garden,Mexico,0.558,3.5,2.77,0.143,484,True
+22,Supplier_Girls' Apparel,Girls' Apparel,Mexico,0.553,3.5,2.79,0.119,1191,True
+23,Supplier_Golf Apparel,Golf Apparel,China,0.519,3.5,2.92,0.1,440,True
+24,Supplier_Golf Bags & Carts,Golf Bags & Carts,India,0.689,3.3,2.25,0.191,61,True
+25,Supplier_Golf Balls,Golf Balls,Vietnam,0.546,3.5,2.82,0.118,1444,True
+26,Supplier_Golf Gloves,Golf Gloves,USA,0.563,3.6,2.75,0.128,1064,True
+27,Supplier_Golf Shoes,Golf Shoes,India,0.555,3.5,2.78,0.121,523,True
+28,Supplier_Health and Beauty,Health and Beauty,China,0.558,3.5,2.77,0.096,362,True
+29,Supplier_Hockey,Hockey,Mexico,0.536,3.4,2.86,0.128,609,True
+30,Supplier_Hunting & Shooting,Hunting & Shooting,Vietnam,0.561,3.4,2.75,0.093,436,True
+31,Supplier_Indoor/Outdoor Games,Indoor/Outdoor Games,India,0.547,3.5,2.81,0.124,16623,True
+32,Supplier_Kids' Golf Clubs,Kids' Golf Clubs,USA,0.534,3.6,2.86,0.106,373,True
+33,Supplier_Lacrosse,Lacrosse,USA,0.601,3.6,2.6,0.131,341,True
+34,Supplier_Men's Clothing,Men's Clothing,Germany,0.543,3.4,2.83,0.053,208,True
+35,Supplier_Men's Footwear,Men's Footwear,Germany,0.545,3.5,2.82,0.12,18783,True
+36,Supplier_Men's Golf Clubs,Men's Golf Clubs,Brazil,0.477,3.4,3.09,0.146,280,True
+37,Supplier_Music,Music,China,0.571,3.5,2.71,0.143,434,True
+38,Supplier_Pet Supplies,Pet Supplies,India,0.589,3.4,2.64,0.094,492,True
+39,Supplier_Shop By Sport,Shop By Sport,India,0.552,3.5,2.79,0.112,10136,True
+40,Supplier_Soccer,Soccer,Brazil,0.543,3.7,2.83,0.147,136,True
+41,Supplier_Sporting Goods,Sporting Goods,Mexico,0.555,3.5,2.78,0.121,357,True
+42,Supplier_Strength Training,Strength Training,Mexico,0.577,3.7,2.69,0.059,111,True
+43,Supplier_Tennis & Racquet,Tennis & Racquet,Brazil,0.558,3.5,2.77,0.134,327,True
+44,Supplier_Toys,Toys,Mexico,0.55,3.5,2.8,0.162,529,True
+45,Supplier_Trade-In,Trade-In,Germany,0.556,3.6,2.77,0.127,964,True
+46,Supplier_Video Games,Video Games,India,0.543,3.6,2.83,0.092,838,True
+47,Supplier_Water Sports,Water Sports,Brazil,0.548,3.5,2.81,0.116,13758,True
+48,Supplier_Women's Apparel,Women's Apparel,India,0.546,3.5,2.82,0.122,17869,True
+49,Supplier_Women's Clothing,Women's Clothing,USA,0.565,3.5,2.74,0.151,650,True
+50,Supplier_Women's Golf Clubs,Women's Golf Clubs,Germany,0.536,3.6,2.86,0.146,181,True

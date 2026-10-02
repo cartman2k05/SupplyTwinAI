@@ -1,0 +1,39 @@
+{
+  "seed": 44,
+  "raw_rows": 180519,
+  "loaded_records": 180519,
+  "rejected_records": 0,
+  "flagged_records": 3,
+  "rejection_samples": [],
+  "flag_samples": [
+    "Row 35704: Missing Customer Zipcode filled with median",
+    "Row 46440: Missing Customer Zipcode filled with median",
+    "Row 82511: Missing Customer Zipcode filled with median"
+  ],
+  "counts": {
+    "customers": 20652,
+    "products": 118,
+    "orders": 65752,
+    "shipments": 65752,
+    "order_items": 180519,
+    "suppliers": 153,
+    "supplier_products": 296,
+    "warehouses": 23,
+    "warehouse_inventory": 2714,
+    "vehicles": 30,
+    "relationships": 294277
+  },
+  "file_hashes": {
+    "customers.csv": "c3bdd7f6ffd051928ac94d1abe8d223f0e8c450c2fa814fee5ca5cdb93cb4f7c",
+    "products.csv": "8019168ce28b99adc3c2e4bda092b4a2b8686ddba8be0910a4f020b62e7a8a02",
+    "orders.csv": "785d2d782cd7239ed5c05a370b290bab3eca437a9ca807be481c13bcbbd6f708",
+    "shipments.csv": "35ec75ae28f43429973e12a4a7570ada1e4adc96f3feff2498cc754fbef07402",
+    "order_items.csv": "8d99596148e9779a326523ae9f2e12d8dac39716978ae34b2fe160e6603e7a58",
+    "suppliers.csv": "c618ecff170d62e73a37146f154ae9fef82cf296aad2374a3912b1278710d3f4",
+    "supplier_products.csv": "a0333559796bdeccf0a1bea224c1d948ba54d33bedc16fd7afdc9bed73525200",
+    "warehouses.csv": "50f78d8f8935a499c8b572410428898a13a794efe611bf2e8bf1908cbc089a2f",
+    "warehouse_inventory.csv": "14249efdf7eda07a902bb7c46fde22714666b2a291d5aa089c97dc606fc851f7",
+    "vehicles.csv": "e1ab3dffb00620517752007cedbe669835061bd4b08b5e1cc9c2f0ba4caca649",
+    "relationships.csv": "2901ac5b6313b384caa88f97df7484f22dc4168c1beaac84721ee8dedcefb754"
+  }
+}

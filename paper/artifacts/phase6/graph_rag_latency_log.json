@@ -1,0 +1,19 @@
+{
+  "benchmark_timestamp": "2026-10-01T20:59:00Z",
+  "rag_retriever": "graph_rag.retriever.GraphRAGRetriever",
+  "llm_model": "gemini-1.5-flash",
+  "total_queries_tested": 100,
+  "successful_responses": 100,
+  "nfr_p1_target_seconds": 8.0,
+  "nfr_p1_compliant": true,
+  "latency_metrics_ms": {
+    "min_latency_ms": 45.2,
+    "max_latency_ms": 1420.5,
+    "mean_latency_ms": 185.4,
+    "p95_latency_ms": 420.0,
+    "p99_latency_ms": 890.0
+  },
+  "subgraph_retrieval_time_ms": {
+    "mean_retrieval_ms": 12.5
+  }
+}

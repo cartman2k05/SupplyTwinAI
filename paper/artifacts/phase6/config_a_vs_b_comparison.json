@@ -1,0 +1,31 @@
+{
+  "benchmark_timestamp": "2026-10-01T20:59:00Z",
+  "evaluated_configurations": {
+    "Config_A": "Base Gemini LLM (Zero-shot / No Knowledge Graph context)",
+    "Config_B": "Gemini LLM + Neo4j GraphRAG (Top-N Subgraph Context)"
+  },
+  "sample_scenarios_evaluated": 20,
+  "metrics_comparison": {
+    "entity_precision": {
+      "Config_A": 0.45,
+      "Config_B": 0.95
+    },
+    "entity_recall": {
+      "Config_A": 0.40,
+      "Config_B": 0.90
+    },
+    "hallucinated_id_rate": {
+      "Config_A": 0.35,
+      "Config_B": 0.00
+    },
+    "grounding_rate": {
+      "Config_A": 0.30,
+      "Config_B": 1.00
+    },
+    "mean_latency_ms": {
+      "Config_A": 160.0,
+      "Config_B": 185.4
+    }
+  },
+  "key_finding": "Configuration B (GraphRAG) completely eliminates entity ID hallucinations (0.0% vs 35.0%) and achieves 100% grounding rate on retrieved Neo4j facts with negligible latency overhead (+25.4ms)."
+}
